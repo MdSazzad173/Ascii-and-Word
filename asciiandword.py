@@ -23,7 +23,7 @@ def asciicode_to_meaning(ascii_value):
         ascii_map[format(ord(i),'08b')]=i
 
     substrings=[]
-    for j in range(0,len(ascii_value),8):       # this loop is for diving the string 8 bit substring
+    for j in range(0,len(ascii_value),8):       # this loop is for dividing the string 8 bit substring
         substrings.append(ascii_value[j:j+8])
     
   
